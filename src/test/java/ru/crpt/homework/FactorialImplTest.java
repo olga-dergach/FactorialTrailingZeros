@@ -15,6 +15,13 @@ import static org.junit.Assert.assertThat;
 import static ru.crpt.homework.FactorialCmdExecutor.WRONG_ARGS_COUNT_MSG;
 import static ru.crpt.homework.FactorialCmdExecutor.WRONG_ARGS_MSG;
 
+/**
+ * Параметризованный тест для FactorialCmdExecutor
+ *
+ * @author Дергач О.В.
+ * @version 1.0
+ */
+
 @RunWith(Parameterized.class)
 public class FactorialImplTest {
     @Parameterized.Parameters

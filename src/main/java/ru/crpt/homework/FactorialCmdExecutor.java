@@ -2,6 +2,13 @@ package ru.crpt.homework;
 
 import ru.crpt.homework.func.Factorial;
 
+/**
+ * Класс для обработки входных данных. Возвращает объект ExecResult с результатом выполнения вычислений
+ * и сообщением в случае ошибки
+ *
+ * @author Дергач О.В.
+ * @version 1.0
+ */
 public class FactorialCmdExecutor {
     public static final String WRONG_ARGS_COUNT_MSG = "Wrong number of arguments.";
     public static final String WRONG_ARGS_MSG = "Wrong argument. Should be a number between 0 and " + Integer.MAX_VALUE;

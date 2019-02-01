@@ -1,5 +1,11 @@
 package ru.crpt.homework.func;
 
+/**
+ * Класс используется для получения характеристик факториала заданного числа.
+ *
+ * @author Дергач О.В.
+ * @version 1.0
+ */
 public class FactorialImpl implements Factorial {
     public int getNumberOfTrailingZeros(int inputNumber){
 
