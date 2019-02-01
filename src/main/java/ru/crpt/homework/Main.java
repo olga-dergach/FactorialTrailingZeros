@@ -6,10 +6,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-
-        FactorialImpl func = new FactorialImpl();
-        Scanner sc = new Scanner(System.in);
-        System.out.println(func.getNumberOfTrailingZeros(sc.nextInt()));
-
+        FactorialCmdExecutor executor = new FactorialCmdExecutor(new FactorialImpl());
+        ExecResult result = executor.execute(args);
+        System.out.println(result.getMessage());
+        if (!result.isSuccess()) {
+            System.exit(1);
+        }
     }
 }
